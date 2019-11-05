@@ -13,6 +13,6 @@ then
 #enviando mensagem
 else
     MESSAGE="Essa mensagem veio de um shell script feito por Diego e Douglas. :trybe: "
-    curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$MENSAGEM\n $MESSAGE\"}" https://hooks.slack.com/services/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 > /dev/null 2> /dev/null
+    curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$MENSAGEM\n $MESSAGE\"}" "webhook url" > /dev/null 2> /dev/null
     echo -e "Sua mensagem foi enviada! :)"
 fi
