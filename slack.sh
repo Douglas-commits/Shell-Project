@@ -1,5 +1,5 @@
 #!/bin/bash
-# Eu sou Tryber e...
+# Eu sou Tryber e...Vou ter muito sucesso na programação!
 #pedindo a mensagem ao usuario
 echo "Digite sua mensagem aqui:"
 read MENSAGEM
